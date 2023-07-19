@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navbar section start */
+.nav-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo img{
+    margin-right: 20px;
+    height: 30px;
+}
+.nav-logo h1{
+    font-size: 40px;
+}
+.nav-logo h1 span{
+    color: #FF42A5;
+}
+.nav-navbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'work sans';
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-navbar a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav-icon{
+    background-color: #E7E6E9;
+    padding: 18px 24px;
+    border-radius: 10px;
+    align-items: center;
+}
+.nav-icon .fa-youtube{
+    color: #F61C0D;
+}
