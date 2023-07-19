@@ -109,6 +109,7 @@ body{
     background: #FF42A5;
     border: 0;
     padding: 10px 20px;
+    cursor: pointer;
 }
 .btn-2{
     color: #FFF;
@@ -120,6 +121,7 @@ body{
     background: #4EC5F7;
     border: 0;
     padding: 10px 20px;
+    cursor: pointer;
 }
 .btn-both{
     margin-left: 0;
