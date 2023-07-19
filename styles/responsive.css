@@ -1,0 +1,169 @@
+@media only screen and (max-width: 576px) {
+    .nav-sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 30px;
+        flex-direction: column;
+    }
+    .nav-navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'work sans';
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .nav-navbar a{
+        margin-top: 30px;
+    }
+    .banner-sec{
+        padding-top: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .banner-desc{
+        width: 50%;    
+        background-image: url('../images/Group\ 14.png');
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .btn-1{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 48px;
+        background: #FF42A5;
+        border: 0;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .online-games{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        width: 90%;    
+        margin: 0 auto;
+        margin-top: 130px;
+    }
+    .online-games h1{
+        color: #0B0223;
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 50px;
+    }
+    .online-games p{
+        color: #534C64;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .online-feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .container{
+        display: flex;
+        position: relative;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .feature-sec{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 950px;
+        flex-direction: column;
+    }
+    .feature-desc h1{
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-weight: 700;    
+    }
+    .feature-img{
+        margin-top: 50px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature-img .image1{
+        height: 400px;
+        position: relative;
+        margin-left: 50px;
+    }
+    .feature-img .image2{
+        height: 220px;
+        position: absolute;
+        left: 1%;
+        bottom: -370%;
+    }
+    .cata-sec{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 420px;
+        margin: 0 auto;
+    }
+    .catalogue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0B0223;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;    
+        margin-right: 30px;
+        padding: 20px;
+    }
+    .catalogue img{
+        margin-right: 10px;
+        height: 20px;
+    }
+    .need-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .privacy-policy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}
